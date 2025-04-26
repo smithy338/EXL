@@ -1,0 +1,137 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #0e0e0e;
+    color: #ffffff;
+}
+
+header {
+    background: #1a1a1a;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #ffffff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.join-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #123ABC;
+    color: #0e0e0e;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.join-button:hover {
+    background-color: #00b8b8;
+}
+
+
+nav a:hover {
+    color: #00ffff;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+footer {
+    background: #1a1a1a;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    margin-top: 40px;
+}
+
+
+
+/* Make sure the page uses full height */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #0e0e0e;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header stays on top */
+header {
+    background: #1a1a1a;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Main sections take available space */
+section {
+    padding: 40px;
+    text-align: center;
+    flex: 1;
+}
+
+/* Contact section */
+#contact {
+    margin-top: auto;
+}
+
+/* Join button */
+.join-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #123ABC;
+    color: #0e0e0e;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.join-button:hover {
+    background-color: #00b8b8;
+}
+
+/* Footer stays at the bottom */
+footer {
+    background: #1a1a1a;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
